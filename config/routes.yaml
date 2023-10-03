@@ -10,3 +10,7 @@ app_home:
 services_show:
     path: /services/{name}
     controller: App\Controller\ServiceController::showService
+
+auth_show:
+    path: /show/{name}
+    controller: App\Controller\AuthorController::showAuthor
