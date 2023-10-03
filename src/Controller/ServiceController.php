@@ -21,6 +21,7 @@ class ServiceController extends AbstractController
     {
         return $this->render('service/showService.html.twig', [
             'name' => $name,
+            //'aa => $authors
         ]);
     }
     
